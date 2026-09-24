@@ -19,9 +19,9 @@ I spent two years at **HDFC Bank** as a Business Data Analyst in Tech & Digital,
 integration workstreams over ₹15 Cr+ of daily transaction value — requirement gathering, incident
 triage, UAT, and the SQL analysis that found where processes were stalling.
 
-I'm now finishing an **MSc in Data Science & Analytics at Maynooth University, Ireland** (1st Class
-Honours), building LLM agents and self-supervised models. My background is a B.Tech in Computer
-Science from **NIT Nagpur**.
+I'm now finishing an **MSc in Data Science & Analytics at Maynooth University, Ireland** (on track
+for 1st Class Honours), building LLM agents and self-supervised models. My background is a B.Tech
+in Computer Science from **NIT Nagpur**.
 
 The thread running through my work: most models that look good are measuring something other than
 what you think. A 91% accuracy score on an 89/11 class split is reporting the class ratio. A 0.657
@@ -30,7 +30,7 @@ that gap — and closing it — is the part I care about.
 
 <div align="center">
 
-`Currently` &nbsp;·&nbsp; MSc thesis on self-supervised spectral classification &nbsp;·&nbsp; LangChain & RAG systems &nbsp;·&nbsp; Agentic workflow design
+`Currently` &nbsp;·&nbsp; MSc thesis on self-supervised spectral classification &nbsp;·&nbsp; LangChain & RAG systems &nbsp;·&nbsp; Contributing to pandas & numpy-financial
 
 </div>
 
@@ -41,6 +41,8 @@ that gap — and closing it — is the part I care about.
 ### 🔬 Ensemble of Lightweight CNNs and CLIP for Skin Disease Classification &nbsp;<sub>[`Published`](https://zenodo.org/records/20754075)</sub>
 
 `PyTorch` `CLIP ViT-B/32` `MobileNetV2` `ShuffleNetV2` `Albumentations`
+
+[Code](https://github.com/Eshan-kumar-jain/University-Final-year-project) · [Paper](https://zenodo.org/records/20754075)
 
 Average ensemble across three architectures on 7-class HAM10000 dermoscopy data (10,015 images).
 **Macro F1 0.6518 at 82.50% accuracy** — 8.6 points clear of the best single model.
@@ -55,6 +57,8 @@ Average ensemble across three architectures on 7-class HAM10000 dermoscopy data 
 ### 🌌 Self-Supervised Region Mapping & Zero-Shot Spectral Classification &nbsp;<sub>`MSc Thesis`</sub>
 
 `PyTorch` `CNNs` `Transformers` `Contrastive Learning`
+
+[Code](https://github.com/Eshan-kumar-jain/Muse-data-science-Project)
 
 Three self-supervised models trained on a 2.9 GB VLT/MUSE spectral cube — 96,093 spectra, **no
 labels of any kind**. The models had to locate the jet, the diffuse gas and the point sources on
@@ -71,6 +75,8 @@ their own.
 
 `Scikit-learn` `XGBoost` `FastAPI` `Streamlit`
 
+[Live app](https://credit-risk-classifiergit.streamlit.app/) · [Code](https://github.com/Eshan-kumar-jain/Credit-risk-classifier)
+
 Seven grid-searched classifiers reported 91% accuracy while catching **zero of 28 rejections**. The
 89/11 split meant the headline number was measuring the class ratio, not the model.
 
@@ -83,15 +89,32 @@ Seven grid-searched classifiers reported 91% accuracy while catching **zero of 2
 
 `Claude API` `Next.js` `TypeScript` `Vercel`
 
+[Live app](https://wealth-iq-a-stock-analyzer.vercel.app/) · [Code](https://github.com/Eshan-kumar-jain/WealthIQ-a-stock-analyzer)
+
 Production AI agent running multi-step prompt workflows over NSE and BSE fundamentals, returning
 plain-English analysis of valuation, growth, financial health and ownership.
 
-### 🛒 Retail & Sales Analytics
+### 🛒 Customer Shopping Behavior Analysis
 
-`PostgreSQL` `Pandas` `SQL`
+`Python` `Pandas` `SQL` `Power BI`
 
-Normalised schema and the SQL behind customer lifetime value, category revenue share, RFM
-segmentation and seasonal demand trends across 10,000+ transactions.
+[Code](https://github.com/Eshan-kumar-jain/Customer-trends-data-analysis-SQL-Python-PowerBI)
+
+End-to-end analysis of 3,900 retail purchases across 18 features: cleaning and feature engineering
+in pandas, SQL queries on revenue by segment, discount use and subscriber vs non-subscriber
+spending, and an interactive Power BI dashboard. Customers segmented into new, returning and loyal,
+with recommendations on retention and discount strategy.
+
+---
+
+## Open Source
+
+| Project | Contribution | Pull request |
+|---|---|---|
+| **pandas** | Regression test for `read_sql` with `%` in SQLAlchemy queries, run against SQLite and PostgreSQL ([#35484](https://github.com/pandas-dev/pandas/issues/35484)) | [#69435](https://github.com/pandas-dev/pandas/pull/69435) |
+| **numpy-financial** | Edge case tests for `npv` and `irr`; reported two unhandled inputs in `irr` ([#58](https://github.com/numpy/numpy-financial/issues/58)) | [#155](https://github.com/numpy/numpy-financial/pull/155) |
+
+Write-ups of each contribution: [open-source-contributions](https://github.com/Eshan-kumar-jain/open-source-contributions)
 
 ---
 
@@ -108,7 +131,6 @@ segmentation and seasonal demand trends across 10,000+ transactions.
 **Machine Learning**
 
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
 ![XGBoost](https://img.shields.io/badge/XGBoost-337AB7?style=flat-square)
 ![HuggingFace](https://img.shields.io/badge/Hugging_Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
@@ -120,8 +142,7 @@ segmentation and seasonal demand trends across 10,000+ transactions.
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
-![R](https://img.shields.io/badge/R-276DC3?style=flat-square&logo=r&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
+![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=flat-square&logo=powerbi&logoColor=black)
 
 **APIs & Development**
 
@@ -129,7 +150,6 @@ segmentation and seasonal demand trends across 10,000+ transactions.
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-5FA04E?style=flat-square&logo=nodedotjs&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
 
@@ -155,7 +175,7 @@ segmentation and seasonal demand trends across 10,000+ transactions.
 
 | | |
 |---|---|
-| **MSc Data Science & Analytics** — 1st Class Honours | Maynooth University, Ireland · 2025–2026 |
+| **MSc Data Science & Analytics** — on track for 1st Class Honours | Maynooth University, Ireland · 2025–2026 (expected) |
 | **B.Tech Computer Science & Engineering** | NIT Nagpur, India · 2019–2023 |
 | **Anthropic** | Claude 101 Prompt Engineering · Agent Skills · Subagents |
 | **HackerRank** | SQL Certificate |
@@ -166,7 +186,7 @@ segmentation and seasonal demand trends across 10,000+ transactions.
 
 <div align="center">
 
-Open to roles in **AI/ML Engineering**, **Data Science** and **Analytics** — Ireland, EU & India.
+Open to roles in **AI/ML Engineering**, **Data Science** and **Data/Business Analytics** — Ireland, EU & India.
 
 [eshanjain552@gmail.com](mailto:eshanjain552@gmail.com) &nbsp;·&nbsp; [LinkedIn](https://linkedin.com/in/eshan-kumar-jain-a140921b6) &nbsp;·&nbsp; [Portfolio](https://eshan-kumar-jain.github.io/My-Portfolio-Website)
 
